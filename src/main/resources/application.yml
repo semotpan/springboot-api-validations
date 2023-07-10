@@ -1,0 +1,11 @@
+spring:
+  # disable default exception handling, enforce @RestControllerAdvice invocation
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration
+  mvc:
+    throw-exception-if-no-handler-found: true
+  jackson:
+    default-property-inclusion: non_empty
+  web:
+    resources:
+      add-mappings: false
