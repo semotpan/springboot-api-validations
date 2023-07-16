@@ -1,4 +1,4 @@
-package demo.album.javax.adapter.in.web;
+package demo.album.jakarta.adapter.in.web;
 
 import jakarta.validation.ConstraintViolationException;
 import org.springframework.http.ResponseEntity;

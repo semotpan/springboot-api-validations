@@ -1,4 +1,4 @@
-package demo.album.javax.application.service;
+package demo.album.jakarta.application.service;
 
 import jakarta.validation.ConstraintViolationException;
 import org.junit.jupiter.api.BeforeEach;
@@ -12,7 +12,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 import java.math.BigDecimal;
 import java.util.UUID;
 
-import static demo.album.javax.application.port.in.CreateAlbumUseCase.CreateAlbumCommand;
+import static demo.album.jakarta.application.port.in.CreateAlbumUseCase.CreateAlbumCommand;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.AssertionsForClassTypes.catchThrowable;
 

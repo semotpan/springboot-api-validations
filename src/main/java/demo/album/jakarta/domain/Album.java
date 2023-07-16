@@ -1,4 +1,4 @@
-package demo.album.javax.domain;
+package demo.album.jakarta.domain;
 
 import lombok.Builder;
 import demo.shared.Guards;

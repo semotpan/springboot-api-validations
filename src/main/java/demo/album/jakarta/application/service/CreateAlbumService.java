@@ -1,7 +1,7 @@
-package demo.album.javax.application.service;
+package demo.album.jakarta.application.service;
 
-import demo.album.javax.application.port.in.CreateAlbumUseCase;
-import demo.album.javax.domain.Album;
+import demo.album.jakarta.application.port.in.CreateAlbumUseCase;
+import demo.album.jakarta.domain.Album;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;

@@ -1,4 +1,4 @@
-package demo.album.javax.application.port.in;
+package demo.album.jakarta.application.port.in;
 
 import demo.shared.SelfValidating;
 import jakarta.validation.constraints.NotBlank;

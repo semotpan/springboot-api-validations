@@ -1,4 +1,4 @@
-package demo.album.javax.adapter.in.web;
+package demo.album.jakarta.adapter.in.web;
 
 import org.json.JSONException;
 import org.junit.jupiter.api.DisplayName;
