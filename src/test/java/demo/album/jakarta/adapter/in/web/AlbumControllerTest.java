@@ -65,6 +65,6 @@ class AlbumControllerTest {
     private ResponseEntity<String> postNewAlbum(String request) {
         var headers = new HttpHeaders();
         headers.setContentType(APPLICATION_JSON);
-        return restTemplate.postForEntity("/javax/albums", new HttpEntity<>(request, headers), String.class);
+        return restTemplate.postForEntity("/jakarta/albums", new HttpEntity<>(request, headers), String.class);
     }
 }

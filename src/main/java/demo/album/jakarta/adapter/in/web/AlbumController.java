@@ -18,7 +18,7 @@ import static org.springframework.web.servlet.support.ServletUriComponentsBuilde
 
 @RestController("jAlbumController")
 @RequiredArgsConstructor
-@RequestMapping(value = "/javax/albums")
+@RequestMapping(value = "/jakarta/albums")
 final class AlbumController {
 
     private final CreateAlbumUseCase jCreateAlbumUseCase;
